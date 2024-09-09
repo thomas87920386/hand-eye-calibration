@@ -1,6 +1,8 @@
 # hand-eye-calibration
 The Matlab script for hand-eye calibration
 
+First, you need to download all the scripts in this repository into a folder, which will be the project folder. Subsequently, check the "configuration.m", it will show the needed folder, file or data for the project.
+
 1. main_compute_hand_eye.m:
 The script is used to compute the hand-eye transformation and can compute the mean error between the reprojection point and ground truth.
 
