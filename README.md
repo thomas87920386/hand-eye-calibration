@@ -1,7 +1,8 @@
 # hand-eye-calibration
 The Matlab script for hand-eye calibration
 
-main_compute_hand_eye.m: \\
+main_compute_hand_eye.m:
+
 The script is used to compute the hand-eye transformation and can compute the mean error between the reprojection point and ground truth.
 
 main_create_label_video.m:
