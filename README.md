@@ -56,6 +56,13 @@ Step 9:
 Find the "right_camera_labels.csv" in the project folder. It will record all the points you label.
 ![image](https://github.com/user-attachments/assets/0228dea7-0a30-49f2-af09-c61a75b55784)
 
+# Result
+## The reprojection result - left endoscope video
+https://github.com/user-attachments/assets/184cc4bf-a756-4105-ab0b-f82dfb3a8def
+
+## The reprojection result - right endoscope video
+https://github.com/user-attachments/assets/0f4a3ed6-ba31-43e4-b4c9-c8d51b05c55b
+
 
 
 
