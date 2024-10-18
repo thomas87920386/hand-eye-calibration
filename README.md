@@ -1,19 +1,19 @@
 # hand-eye-calibration
 The Matlab script for hand-eye calibration
 
-First, you need to download all the scripts in this repository into a folder, which will be the project folder. Subsequently, check the "configuration.m", it will show the needed folder, file or data for the project.
+First, you need to download all the scripts in this repository into a folder, which will be the project folder. Subsequently, check the "configuration.m", it will show the needed path of the folder, file or some parameters for the project.
 
 1. main_compute_hand_eye.m:
-The script is used to compute the hand-eye transformation and can compute the mean error between the reprojection point and ground truth.
+The script computes the hand-eye transformation and can calculate the mean error between the reprojection point and ground truth.
 
 2. main_create_label_video.m:
 Can label the video by the coordinates computed by the reprojected point.
 
 3. main_endoscopePosition_visualization.m:
-The script can plot the point with the coordinates, which is the translation part in the "EndoscopePosition" column, to the video.
+The script can plot the point with the coordinates, the translation part in the "EndoscopePosition" column, to the video.
 
 4. main_save_all_frames.m:
-The script can extract all the frames from the video into the folder. It is only helpful to write the thesis.
+The script can extract all the frames from the video and put them into the folder. It is only helpful to write the thesis.
 
 5. main_label_right_video.m:
 According to the point coordinates in the CSV file, recording the left video labelled point, to draw the horizontal line in the right video frame, which is needed to be labelled and fixed the Y coordinate of the labelled point coordinates in the right frame.
